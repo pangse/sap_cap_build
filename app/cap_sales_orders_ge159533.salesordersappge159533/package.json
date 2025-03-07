@@ -1,0 +1,19 @@
+{
+  "name": "cap_sales_orders_ge159533.salesordersappge159533",
+  "version": "0.0.1",
+  "description": "SalesOrdersApp GE159533",
+  "keywords": [
+    "ui5",
+    "openui5",
+    "sapui5"
+  ],
+  "main": "webapp/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "@ui5/cli": "^3.0.0",
+    "@sap/ux-ui5-tooling": "1"
+  },
+  "scripts": {
+    "deploy-config": "npx -p @sap/ux-ui5-tooling fiori add deploy-config cf"
+  }
+}
